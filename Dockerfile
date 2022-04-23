@@ -1,4 +1,4 @@
-FROM python:3.7.13
+FROM python:3.8.12
 
 RUN apt-get update && apt-get install --yes pipenv
 WORKDIR /usr/src/app
